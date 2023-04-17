@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Header (props) {
+const Header= () => {
     return (
-        <div className='HeaderBlock'>{props.children}</div>
+        <div className='HeaderBlock'></div>
     )
 }
 

@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Navigation(props) {
+const Navigation=() => {
     return (
-        <div className='NavigationBlock'>{props.children}</div>
+        <div className='NavigationBlock'></div>
     )
 }
 

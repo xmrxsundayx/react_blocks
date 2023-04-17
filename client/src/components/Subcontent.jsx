@@ -1,8 +1,8 @@
 import React from 'react'
 
-function SubContent (props) {
+const SubContent =() => {
     return (
-        <div className='SubContentBlock'>{props.children}</div>
+        <div className='SubContentBlock'></div>
     )
 }
 

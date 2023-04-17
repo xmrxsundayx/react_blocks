@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Advertisement (props) {
+const Advertisement = () => {
     return (
-        <div className='AdvertBlock'>{props.children}</div>
+        <div className='AdvertBlock'></div>
     )
 }
 
